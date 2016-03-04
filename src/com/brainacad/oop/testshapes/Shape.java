@@ -2,7 +2,7 @@ package com.brainacad.oop.testshapes;
 
 import java.util.Objects;
 
-public class Shape {
+public abstract class Shape implements Drawable {
     private String shapeColor;
 
     public String getShapeColor() {
@@ -18,8 +18,5 @@ public class Shape {
         return "This is Shape, color is: " + shapeColor;
     }
 
-    public double calcArea(){
-        double area = 0.0;
-        return area;
-    }
+    public abstract double calcArea();
 }
