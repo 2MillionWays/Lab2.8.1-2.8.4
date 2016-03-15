@@ -36,7 +36,7 @@ public class Main {
             sumArea+=arrayElement.calcArea();
             if(arrayElement instanceof Rectangle){
                 sumRectArea+=arrayElement.calcArea();
-            } if(arrayElement instanceof Circle){
+            } if(arrayElement instanceof Circle){           //with else statement will be better
                 sumCircleArea+=arrayElement.calcArea();
             } if(arrayElement instanceof Triangle){
                 sumTriangleArea+=arrayElement.calcArea();
